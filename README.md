@@ -37,31 +37,19 @@ If the chatbot encounters an unknown question:
 
 ### Example
 
-User:
+User: What is Python?
 
-What is Python?
+Bot: I don't know the answer. Please teach me.
 
-Bot:
+User: Python is a programming language.
 
-I don't know the answer. Please teach me.
-
-User:
-
-Python is a programming language.
-
-Bot:
-
-Thank you! I learned the answer.
+Bot: Thank you! I learned the answer.
 
 Next time:
 
-User:
+User: What is Python?
 
-What is Python?
-
-Bot:
-
-Python is a programming language.
+Bot: Python is a programming language.
 
 ---
 
@@ -71,29 +59,17 @@ The chatbot can evaluate arithmetic expressions.
 
 ### Examples
 
-User:
+User: 10 + 20
 
-10 + 20
+Bot: Result = 30
 
-Bot:
+User: 25 * 4
 
-Result = 30
+Bot: Result = 100
 
-User:
+User: 100 / 4
 
-25 * 4
-
-Bot:
-
-Result = 100
-
-User:
-
-100 / 4
-
-Bot:
-
-Result = 25.0
+Bot: Result = 25.0
 
 Supported operators:
 
@@ -372,6 +348,6 @@ Potential improvements include:
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Author - Niharika Sharma
 
 Developed as a Python portfolio project to demonstrate practical programming, GUI development, file handling, and chatbot implementation concepts.
